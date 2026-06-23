@@ -17,7 +17,7 @@ An enterprise-grade analytics solution built to track regional sales performance
 ## 💾 Data Source Architecture
 The underlying data pipeline uses a relational **Star Schema** to optimize performance and data accuracy:
 **Fact Table:** `Sales Data` – Houses core transactional records including revenue, margins, order dates, quantity, and product keys.
-**Dimension Tables:** * `Calendar Table` – An explicit, continuous date table providing precise granular control over years, months, and historical offsets. Geographical data points containing `Region`, `State`, and localized operational boundaries.
+**Dimension Tables:**  `Calendar Table` – An explicit, continuous date table providing precise granular control over years, months, and historical offsets. Geographical data points containing `Region`, `State`, and localized operational boundaries.
 
 ---
 
